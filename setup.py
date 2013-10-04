@@ -27,7 +27,9 @@ setup(
         'Operating System :: OS Independent',
         'License :: OSI Approved :: BSD License',
         'Topic :: Software Development :: Libraries :: Python Modules'],
-
+    install_requires=[
+        'django-forms-bootstrap',
+    ]
     license=zinnia_bootstrap.__license__,
     include_package_data=True,
     zip_safe=False
